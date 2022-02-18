@@ -15,10 +15,11 @@ public class Main {
         DataManager dm = new DataManager("./data/data.txt");
         ArrayList<Task> tasksData = dm.loadData();
 
-        System.out.println("Printing deadlines");
+//        printData(tasksData);
+//        System.out.println("\nPrinting deadlines");
         printDeadlines(tasksData);
 
-        System.out.println("Total number of deadlines: " + countDeadlines(tasksData));
+//        System.out.println("\nTotal number of deadlines: " + countDeadlines(tasksData));
 
     }
 
